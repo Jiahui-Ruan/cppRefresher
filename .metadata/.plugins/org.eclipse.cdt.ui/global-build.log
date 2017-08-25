@@ -37,3 +37,41 @@ Finished building target: Hello World
 01:03:06 **** Incremental Build of configuration Debug for project Hello World ****
 make all 
 make: Nothing to be done for `all'.
+01:38:30 **** Build of configuration Debug for project Var ****
+make all 
+Building file: ../src/Var.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Var.d" -MT"src/Var.o" -o "src/Var.o" "../src/Var.cpp"
+Finished building: ../src/Var.cpp
+ 
+Building target: Var
+Invoking: MacOS X C++ Linker
+g++  -o "Var"  ./src/Var.o   
+Finished building target: Var
+ 
+01:38:36 **** Incremental Build of configuration Debug for project Var ****
+make all 
+make: Nothing to be done for `all'.
+01:40:19 **** Incremental Build of configuration Debug for project Var ****
+make all 
+Building file: ../src/Var.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Var.d" -MT"src/Var.o" -o "src/Var.o" "../src/Var.cpp"
+../src/Var.cpp:13:20: error: expected ';' at end of declaration
+        int numOfCats = 10
+                          ^
+                          ;
+1 error generated.
+make: *** [src/Var.o] Error 1
+01:40:45 **** Incremental Build of configuration Debug for project Var ****
+make all 
+Building file: ../src/Var.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Var.d" -MT"src/Var.o" -o "src/Var.o" "../src/Var.cpp"
+Finished building: ../src/Var.cpp
+ 
+Building target: Var
+Invoking: MacOS X C++ Linker
+g++  -o "Var"  ./src/Var.o   
+Finished building target: Var
+ 
