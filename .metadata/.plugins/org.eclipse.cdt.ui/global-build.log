@@ -1,0 +1,39 @@
+00:55:24 **** Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+00:55:40 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+00:56:08 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+00:56:20 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+00:57:03 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+01:02:46 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+01:03:06 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
